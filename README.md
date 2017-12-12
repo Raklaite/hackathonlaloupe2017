@@ -15,7 +15,7 @@ Quelques liens utiles pour vous guider :
 - Axios make promised HTTP request simplier just look at https://github.com/axios/axios
 - Responsive Alerts and hints https://limonte.github.io/sweetalert2/
 - Already installed and ready to use : http://element.eleme.io/#/en-US/component/form and bootstrap.
-- Liens vers les ressources de l'API :
+- Liens vers les ressources de l'API : vous serons fournis sur site pour cause de confidentialité
 - Les documentations citées ci-dessus ainsi que **google** et **StackOverflow**
 seront vos futurs meilleurs potes !
 - Coté CSS pré-installé vous disposez de [ELEMENT](http://element.eleme.io/#/en-US/component/installation) & [BOOSTRAP](https://getbootstrap.com/docs/3.3/) 3.3.7
