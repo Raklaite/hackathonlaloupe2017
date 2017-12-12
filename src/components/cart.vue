@@ -1,7 +1,6 @@
 <template>
 	<div>
-		<h2>Cart</h2>
-		<ul>
+    		<ul>
 			<li
 			  v-for="item in cart"
 			  :key="item.id"
@@ -15,7 +14,7 @@
 				</li>
 		</ul>
 		<div v-if="cart.length === 0">
-			<h2> No item :( </h2>
+			<h2> La liste est vide pour l'instant ajoute des produits !</h2>
 		</div>
 		<div v-else>
 			<div class="total-amount">Total: {{formatCurrency(totalAmount)}}</div>

@@ -1,18 +1,22 @@
-﻿# Avé à vous Wilders !
+﻿
+**Hackathon WCS La Loupe 2017**
+====================
+
+# Ave à vous Wilders !
 ## Readme Hackathon :
 
-Salut ! Je suis votre  **README**. Je suis la pour vous guidez au cours de l'installation et l'utilisation de la
-stack que nous vous founirons pour votre hackathon.
-Vous allez utilisés une stack en front VUEJS et en back serverless (avec AWS LAMBDA & API GATEWAY).
-Quelques liens pour vous guidez :
+Salut ! Je suis votre  **README**. Je suis là pour vous guider au cours de l'installation et l'utilisation de la
+stack que nous vous fournissons pour votre hackathon.
+Vous aller utilisés une stack en front VUEJS et en back serverless (avec AWS LAMBDA & API GATEWAY).
+Quelques liens utiles pour vous guider :
 - https://fr.vuejs.org/v2/guide/  Documentation VUEJS officielle .
-- https://vuex.vuejs.org/fr/ Documentation  VUEX ( Fais office de store).
-- https://router.vuejs.org/fr/# Documentation vue-router
-- Axios make promised http request simplier just look at https://github.com/axios/axios
+- https://vuex.vuejs.org/fr/ Documentation  VUEX (store).
+- https://router.vuejs.org/fr/# Documentation vue-router.
+- Axios make promised HTTP request simplier just look at https://github.com/axios/axios
 - Responsive Alerts and hints https://limonte.github.io/sweetalert2/
 - Already installed and ready to use : http://element.eleme.io/#/en-US/component/form and boosTrap.
 - Liens vers les ressources de l'API :
-- Les Documentations citées ci dessus ainsi que **google** et **StackOverflow**
+- Les Documentations citées ci-dessus ainsi que **google** et **StackOverflow**
 seront vos futurs meilleurs potes !
 - Coté CSS pré installé vous disposez de [enter link description here](http://element.eleme.io/#/en-US/component/installation) & [BOOSTRAP ](https://getbootstrap.com/docs/3.3/) 3.3.7
 
@@ -30,20 +34,21 @@ seront vos futurs meilleurs potes !
 > - Then `npm run dev`
 > - Ready to code !
 
-## Dossiers et sous dossiers
+## Dossiers et sous-dossiers
 
 Le fichier **App** est construit ainsi :
-> - **BUILD**: Les fichiers de builds, vous n'avez pas besoin d'y touchez pour l'instant, ils seront utiles lors de la mise en prod.
-> - **NODE-MODULE**: Les modules node & paquets npm listé dans le package.json
-> - **CONFIG**: Les fichiers de configurations d'environnement, Le HMR (Hot Module Reload), la compilation ( ou pas voir babel/webpack ) est configuré d'origine ici.
+> - **BUILD**: Les fichiers de builds, vous n'avez pas besoin d'y toucher pour l'instant, ils seront utiles lors de la mise en prod.
+> - **NODE-MODULE**: Les modules node & paquets npm listés dans le package.json
+> - **CONFIG**: Les fichiers de configurations d'environnement, Le HMR (Hot Module Reload), la compilation ( ou pas voir babel/webpack ) est configurée d'origine ici.
+> - **STATIC**: Dossier destiné au fichiers static..., polices, images , backgrounds, icones,  etc...
+
  > - **SRC** : Le dossier Source qui contiendra :
 
 >> - **COMPONENTS** : Nos composants Vue.js
 >> - **ROUTE** : Nos imports de routes ainsi que les chemins.
 >>- **app.vue**: Le fichier racine de l'application.
 >>- **Components & directives** : Composants et directives réutilisable dans toute l'application
->>- **main.js**: Fichier principale de l'application (déclaration du router et du constructeur d'APP.vue).
-> - **STATIC**: Dossier destiné au fichiers static..., polices, images , backgrounds, icones,  etc...
+>>- **main.js**: Fichier principal de l'application (déclaration du router et du constructeur d'APP.vue).
 
 
 ## Créer un composant
@@ -51,33 +56,45 @@ Le fichier **App** est construit ainsi :
 `import products from './components/products.vue'
 &&
 import example from './components/example'`
-## Préféré le tout en un :
+## avec VUE c'est tout en un :
 - ## première partie l'html : Commence et se termine par une balise  `<template>` ou par une `<div id="COMPONENT"> (cas particulier)`
 ![Partie Html](https://img15.hostingpics.net/pics/304357templatevue1.png)
 - ## Deuxieme partie : Le JS , sur ce bon hackathon
-![enter image description here](data:image/jpeg;base64,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)
-## Plus sérieusement voici un example de la partie JS d'un composant vue simple:![enter image description here](https://img15.hostingpics.net/pics/423879tempalte2.png)
+
+## Plus sérieusement voici un example du  JS d'un composant vue simple:![enter image description here](https://img15.hostingpics.net/pics/423879tempalte2.png)
   # Le js se décompose en plusieurs partie :
   - Les déclaration et import , TOUJOURS AU DEBUT DU SCRIPT.
+  - il se déclare entre deux balise `<script></script>.`
   - Les props, le contenu de votre composant dans l'exemple les prop sont :
   -  - une String text qui est vide.
   - - une String visible qui contient 'all'.
-  - - un Boolean markAll a false,
+  - - un Boolean markAll à false,
   - elles pourraient êtres n'importes quoi , object , array , array[Object]/[String], etc...
   ## Les méthodes :
-  Pour faire au plus simple les méthodes sont les functions propre a un composant
+  Pour faire au plus simple les méthodes sont les functions propre à un composant
   ex : ![enter image description here](https://img15.hostingpics.net/pics/321502addtocart.png)
-
-##  Cycle de vie
-Un peu plus costaud et moins détaillé ![enter image description here](https://vuejs.org/images/lifecycle.png)
-Les propriétés **destroyed** , **beforeDestroyed**, **mouted** etc... correspondent a des moment précis du rendu de nos composant ainsi on peu attacher ou séquencer ces actions. Voir la doc VueJs et les LifeCycleHook pour plus d'infos.
-
-# Propriété computed & Watchers
-voir doc officielle pour plus d'example.![enter image description here](https://img15.hostingpics.net/pics/196858template3.png)
-![enter image description here](https://img15.hostingpics.net/pics/943837computed.png)
-
 # Troisième et dernière partie :
-Le style simplement entre deux balise `<style></style>` comme dans n'importe quelle autre fichiers scss, css , less etc ...
+Le style simplement entre deux balise `<style></style>` comme dans n'importe quels autres fichiers scss, css , less etc ...
 example :
 ![enter image description here](https://img15.hostingpics.net/pics/196858template3.png)
-# hackathonlaloupe2017
+##  Cycle de vie
+L'instance de vue et ces Hooks
+![enter image description here](https://vuejs.org/images/lifecycle.png)
+Les propriétés **destroyed** , **beforeDestroyed**, **mouted** etc... correspondent a des moment précis du rendu de nos composant ainsi on peut attacher ou séquencer ces actions. Voir la doc VueJs et les LifeCycleHook pour plus d'infos.
+
+# Propriété computed & Watchers
+voir doc officielle pour plus d'examples.
+![enter image description here](https://img15.hostingpics.net/pics/943837computed.png)
+
+#Routes ##
+Vue vous permet de router de plusieurs façon , mais d'abord il faudra déclarer votre route.
+Les routes se composent ainsi :
+ `path: '/', component: example, name: 'home', meta: {whateverUWant: whateverUWant} }`
+- Le path : Le chemin d'accès a votre route dans l'example '/' ou '/#' correspondent au chemin racine.
+- Le(s) composant : component , qui devront étres importés au début du fichier.
+- un nom par convention on donne généralement un meme nom de composant et de route.
+- Et ( ou pas ) un objet meta qui contient ce que vous voulez.
+
+
+Bon courage et bonne chance ! L'équipe CGPRO.
+=============================

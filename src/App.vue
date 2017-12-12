@@ -16,8 +16,9 @@
 <div>
     <h1>
     </h1>
-    <router-link :to="{ path: 'products' }"> products </router-link>
-    <router-link :to="{ path: 'cart' }"> cart </router-link>
+    <router-link :to="{ path: 'products' }"> Produits </router-link>
+    <span>Le router est activé ici</span>
+    <router-link :to="{ path: 'cart' }"> Ma liste </router-link>
 
 </div>
 <router-view></router-view>

@@ -1,7 +1,7 @@
 <template>
 	<div id="products">
 		<span v-if="products.length === 0">Fetching Products....</span>
-		<h2 v-else>Products</h2>
+		<h2 v-else>Produits</h2>
 		<div
 		  class="notification"
 		  v-for="(info, key) in infos"

@@ -13,8 +13,8 @@
 			/>
 			<button> Add Todo </button>
 		</form>
-		<ul>
-			<li
+		<ul class="list-group">
+			<li class="list-group-item"
 			  v-for="(todo, index) in todos"
 			  :key="index"
 			>
