@@ -85,7 +85,6 @@ Les propriétés **destroyed** , **beforeDestroyed**, **mouted** etc... correspo
 # Propriété computed & Watchers
 voir doc officielle pour plus d'examples.
 ![enter image description here](https://img15.hostingpics.net/pics/943837computed.png)
-
 #Routes ##
 Vue vous permet de router de plusieurs façon , mais d'abord il faudra déclarer votre route.
 Les routes se composent ainsi :
@@ -98,3 +97,7 @@ Les routes se composent ainsi :
 
 Bon courage et bonne chance ! L'équipe CGPRO.
 =============================
+
+
+
+
